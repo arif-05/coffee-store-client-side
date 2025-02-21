@@ -22,7 +22,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
             //   icon: "success"
             // });
             console.log('Deleted successfully');
-            fetch(`http://localhost:5000/coffee/${_id}`, {
+            fetch(`https://coffee-store-server-cdp35mh8t-arifs-projects-3008cba0.vercel.app/coffee/${_id}`, {
               method: "DELETE",
             })
              .then((response) => response.json())

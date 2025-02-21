@@ -22,7 +22,7 @@ const SignUp = () => {
 
 
           const user = { email, createAt: createAt};
-          fetch("http://localhost:5000/user",{
+          fetch("https://coffee-store-server-cdp35mh8t-arifs-projects-3008cba0.vercel.app/user",{
             method: "POST",
             headers: {
               'Content-Type': 'application/json'
